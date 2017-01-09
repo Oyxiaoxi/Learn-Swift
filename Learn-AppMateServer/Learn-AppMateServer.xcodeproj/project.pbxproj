@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC0FE7081E231736007B57E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FE7071E231736007B57E7 /* AppDelegate.swift */; };
+		CC0FE70A1E231736007B57E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FE7091E231736007B57E7 /* ViewController.swift */; };
+		CC0FE70D1E231736007B57E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0FE70B1E231736007B57E7 /* Main.storyboard */; };
+		CC0FE70F1E231736007B57E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0FE70E1E231736007B57E7 /* Assets.xcassets */; };
+		CC0FE7121E231736007B57E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0FE7101E231736007B57E7 /* LaunchScreen.storyboard */; };
+		CC0FE71D1E231736007B57E7 /* Learn_AppMateServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FE71C1E231736007B57E7 /* Learn_AppMateServerTests.swift */; };
+		CC0FE7281E231736007B57E7 /* Learn_AppMateServerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FE7271E231736007B57E7 /* Learn_AppMateServerUITests.swift */; };
+		CC0FE7361E2317AB007B57E7 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FE7351E2317AB007B57E7 /* Package.swift */; };
+		CC0FE7381E23190D007B57E7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FE7371E23190D007B57E7 /* main.swift */; };
+		CC0FE73A1E231BCE007B57E7 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FE7391E231BCE007B57E7 /* Test.swift */; };
+		CC0FE73C1E231D62007B57E7 /* arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FE73B1E231D62007B57E7 /* arguments.swift */; };
+		CC0FE73E1E232A4D007B57E7 /* handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FE73D1E232A4D007B57E7 /* handler.swift */; };
+		CC0FE7401E232BEF007B57E7 /* plugins.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FE73F1E232BEF007B57E7 /* plugins.swift */; };
+		CC0FE7421E232D0C007B57E7 /* pubsub.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FE7411E232D0C007B57E7 /* pubsub.swift */; };
+		CC0FE7441E232E0D007B57E7 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FE7431E232E0D007B57E7 /* utils.swift */; };
+		CC0FE7461E232EE4007B57E7 /* sessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FE7451E232EE4007B57E7 /* sessions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC0FE7191E231736007B57E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC0FE6FC1E231736007B57E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0FE7031E231736007B57E7;
+			remoteInfo = "Learn-AppMateServer";
+		};
+		CC0FE7241E231736007B57E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC0FE6FC1E231736007B57E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0FE7031E231736007B57E7;
+			remoteInfo = "Learn-AppMateServer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC0FE7041E231736007B57E7 /* Learn-AppMateServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn-AppMateServer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0FE7071E231736007B57E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC0FE7091E231736007B57E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC0FE70C1E231736007B57E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC0FE70E1E231736007B57E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC0FE7111E231736007B57E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC0FE7131E231736007B57E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0FE7181E231736007B57E7 /* Learn-AppMateServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learn-AppMateServerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0FE71C1E231736007B57E7 /* Learn_AppMateServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn_AppMateServerTests.swift; sourceTree = "<group>"; };
+		CC0FE71E1E231736007B57E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0FE7231E231736007B57E7 /* Learn-AppMateServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learn-AppMateServerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0FE7271E231736007B57E7 /* Learn_AppMateServerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn_AppMateServerUITests.swift; sourceTree = "<group>"; };
+		CC0FE7291E231736007B57E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0FE7351E2317AB007B57E7 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		CC0FE7371E23190D007B57E7 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CC0FE7391E231BCE007B57E7 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		CC0FE73B1E231D62007B57E7 /* arguments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = arguments.swift; sourceTree = "<group>"; };
+		CC0FE73D1E232A4D007B57E7 /* handler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = handler.swift; sourceTree = "<group>"; };
+		CC0FE73F1E232BEF007B57E7 /* plugins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = plugins.swift; sourceTree = "<group>"; };
+		CC0FE7411E232D0C007B57E7 /* pubsub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pubsub.swift; sourceTree = "<group>"; };
+		CC0FE7431E232E0D007B57E7 /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		CC0FE7451E232EE4007B57E7 /* sessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sessions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC0FE7011E231736007B57E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0FE7151E231736007B57E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0FE7201E231736007B57E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC0FE6FB1E231736007B57E7 = {
+			isa = PBXGroup;
+			children = (
+				CC0FE7061E231736007B57E7 /* Learn-AppMateServer */,
+				CC0FE71B1E231736007B57E7 /* Learn-AppMateServerTests */,
+				CC0FE7261E231736007B57E7 /* Learn-AppMateServerUITests */,
+				CC0FE7051E231736007B57E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC0FE7051E231736007B57E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0FE7041E231736007B57E7 /* Learn-AppMateServer.app */,
+				CC0FE7181E231736007B57E7 /* Learn-AppMateServerTests.xctest */,
+				CC0FE7231E231736007B57E7 /* Learn-AppMateServerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC0FE7061E231736007B57E7 /* Learn-AppMateServer */ = {
+			isa = PBXGroup;
+			children = (
+				CC0FE7071E231736007B57E7 /* AppDelegate.swift */,
+				CC0FE7091E231736007B57E7 /* ViewController.swift */,
+				CC0FE70B1E231736007B57E7 /* Main.storyboard */,
+				CC0FE70E1E231736007B57E7 /* Assets.xcassets */,
+				CC0FE7101E231736007B57E7 /* LaunchScreen.storyboard */,
+				CC0FE7131E231736007B57E7 /* Info.plist */,
+				CC0FE7351E2317AB007B57E7 /* Package.swift */,
+				CC0FE7371E23190D007B57E7 /* main.swift */,
+				CC0FE7391E231BCE007B57E7 /* Test.swift */,
+				CC0FE73B1E231D62007B57E7 /* arguments.swift */,
+				CC0FE73D1E232A4D007B57E7 /* handler.swift */,
+				CC0FE73F1E232BEF007B57E7 /* plugins.swift */,
+				CC0FE7411E232D0C007B57E7 /* pubsub.swift */,
+				CC0FE7431E232E0D007B57E7 /* utils.swift */,
+				CC0FE7451E232EE4007B57E7 /* sessions.swift */,
+			);
+			path = "Learn-AppMateServer";
+			sourceTree = "<group>";
+		};
+		CC0FE71B1E231736007B57E7 /* Learn-AppMateServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC0FE71C1E231736007B57E7 /* Learn_AppMateServerTests.swift */,
+				CC0FE71E1E231736007B57E7 /* Info.plist */,
+			);
+			path = "Learn-AppMateServerTests";
+			sourceTree = "<group>";
+		};
+		CC0FE7261E231736007B57E7 /* Learn-AppMateServerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC0FE7271E231736007B57E7 /* Learn_AppMateServerUITests.swift */,
+				CC0FE7291E231736007B57E7 /* Info.plist */,
+			);
+			path = "Learn-AppMateServerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC0FE7031E231736007B57E7 /* Learn-AppMateServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0FE72C1E231736007B57E7 /* Build configuration list for PBXNativeTarget "Learn-AppMateServer" */;
+			buildPhases = (
+				CC0FE7001E231736007B57E7 /* Sources */,
+				CC0FE7011E231736007B57E7 /* Frameworks */,
+				CC0FE7021E231736007B57E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Learn-AppMateServer";
+			productName = "Learn-AppMateServer";
+			productReference = CC0FE7041E231736007B57E7 /* Learn-AppMateServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC0FE7171E231736007B57E7 /* Learn-AppMateServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0FE72F1E231736007B57E7 /* Build configuration list for PBXNativeTarget "Learn-AppMateServerTests" */;
+			buildPhases = (
+				CC0FE7141E231736007B57E7 /* Sources */,
+				CC0FE7151E231736007B57E7 /* Frameworks */,
+				CC0FE7161E231736007B57E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC0FE71A1E231736007B57E7 /* PBXTargetDependency */,
+			);
+			name = "Learn-AppMateServerTests";
+			productName = "Learn-AppMateServerTests";
+			productReference = CC0FE7181E231736007B57E7 /* Learn-AppMateServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC0FE7221E231736007B57E7 /* Learn-AppMateServerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0FE7321E231736007B57E7 /* Build configuration list for PBXNativeTarget "Learn-AppMateServerUITests" */;
+			buildPhases = (
+				CC0FE71F1E231736007B57E7 /* Sources */,
+				CC0FE7201E231736007B57E7 /* Frameworks */,
+				CC0FE7211E231736007B57E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC0FE7251E231736007B57E7 /* PBXTargetDependency */,
+			);
+			name = "Learn-AppMateServerUITests";
+			productName = "Learn-AppMateServerUITests";
+			productReference = CC0FE7231E231736007B57E7 /* Learn-AppMateServerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC0FE6FC1E231736007B57E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Oyxiaoxi;
+				TargetAttributes = {
+					CC0FE7031E231736007B57E7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CC0FE7171E231736007B57E7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC0FE7031E231736007B57E7;
+					};
+					CC0FE7221E231736007B57E7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC0FE7031E231736007B57E7;
+					};
+				};
+			};
+			buildConfigurationList = CC0FE6FF1E231736007B57E7 /* Build configuration list for PBXProject "Learn-AppMateServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC0FE6FB1E231736007B57E7;
+			productRefGroup = CC0FE7051E231736007B57E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC0FE7031E231736007B57E7 /* Learn-AppMateServer */,
+				CC0FE7171E231736007B57E7 /* Learn-AppMateServerTests */,
+				CC0FE7221E231736007B57E7 /* Learn-AppMateServerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC0FE7021E231736007B57E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0FE7121E231736007B57E7 /* LaunchScreen.storyboard in Resources */,
+				CC0FE70F1E231736007B57E7 /* Assets.xcassets in Resources */,
+				CC0FE70D1E231736007B57E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0FE7161E231736007B57E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0FE7211E231736007B57E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC0FE7001E231736007B57E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0FE73C1E231D62007B57E7 /* arguments.swift in Sources */,
+				CC0FE7361E2317AB007B57E7 /* Package.swift in Sources */,
+				CC0FE7401E232BEF007B57E7 /* plugins.swift in Sources */,
+				CC0FE70A1E231736007B57E7 /* ViewController.swift in Sources */,
+				CC0FE73A1E231BCE007B57E7 /* Test.swift in Sources */,
+				CC0FE7461E232EE4007B57E7 /* sessions.swift in Sources */,
+				CC0FE7441E232E0D007B57E7 /* utils.swift in Sources */,
+				CC0FE7381E23190D007B57E7 /* main.swift in Sources */,
+				CC0FE7081E231736007B57E7 /* AppDelegate.swift in Sources */,
+				CC0FE73E1E232A4D007B57E7 /* handler.swift in Sources */,
+				CC0FE7421E232D0C007B57E7 /* pubsub.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0FE7141E231736007B57E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0FE71D1E231736007B57E7 /* Learn_AppMateServerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0FE71F1E231736007B57E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0FE7281E231736007B57E7 /* Learn_AppMateServerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC0FE71A1E231736007B57E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0FE7031E231736007B57E7 /* Learn-AppMateServer */;
+			targetProxy = CC0FE7191E231736007B57E7 /* PBXContainerItemProxy */;
+		};
+		CC0FE7251E231736007B57E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0FE7031E231736007B57E7 /* Learn-AppMateServer */;
+			targetProxy = CC0FE7241E231736007B57E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC0FE70B1E231736007B57E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC0FE70C1E231736007B57E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC0FE7101E231736007B57E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC0FE7111E231736007B57E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC0FE72A1E231736007B57E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC0FE72B1E231736007B57E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC0FE72D1E231736007B57E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Learn-AppMateServer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Oyxiaoxi.Learn-AppMateServer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CC0FE72E1E231736007B57E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Learn-AppMateServer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Oyxiaoxi.Learn-AppMateServer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CC0FE7301E231736007B57E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Learn-AppMateServerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Oyxiaoxi.Learn-AppMateServerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learn-AppMateServer.app/Learn-AppMateServer";
+			};
+			name = Debug;
+		};
+		CC0FE7311E231736007B57E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Learn-AppMateServerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Oyxiaoxi.Learn-AppMateServerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learn-AppMateServer.app/Learn-AppMateServer";
+			};
+			name = Release;
+		};
+		CC0FE7331E231736007B57E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Learn-AppMateServerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Oyxiaoxi.Learn-AppMateServerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Learn-AppMateServer";
+			};
+			name = Debug;
+		};
+		CC0FE7341E231736007B57E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Learn-AppMateServerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Oyxiaoxi.Learn-AppMateServerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Learn-AppMateServer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC0FE6FF1E231736007B57E7 /* Build configuration list for PBXProject "Learn-AppMateServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0FE72A1E231736007B57E7 /* Debug */,
+				CC0FE72B1E231736007B57E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0FE72C1E231736007B57E7 /* Build configuration list for PBXNativeTarget "Learn-AppMateServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0FE72D1E231736007B57E7 /* Debug */,
+				CC0FE72E1E231736007B57E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0FE72F1E231736007B57E7 /* Build configuration list for PBXNativeTarget "Learn-AppMateServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0FE7301E231736007B57E7 /* Debug */,
+				CC0FE7311E231736007B57E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0FE7321E231736007B57E7 /* Build configuration list for PBXNativeTarget "Learn-AppMateServerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0FE7331E231736007B57E7 /* Debug */,
+				CC0FE7341E231736007B57E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC0FE6FC1E231736007B57E7 /* Project object */;
+}
